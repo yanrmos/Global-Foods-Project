@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ]
+}
+```
+
+A estrutura final no GitHub deve ficar:
+```
+api/
+  process.js
+  dropbox.js
+public/
+  index.html
+vercel.json
